@@ -10,3 +10,18 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     }
+
+    /* HEADER */
+
+    #logo_row {
+        height: 50px; 
+        background-color: goldenrod;
+        margin-bottom: 20px;
+    }
+
+    #logo {
+        height: 100%;
+        border-right:2px solid rgb(197, 197, 197);
+        height: 50px;
+        padding-right: 10px;
+    }
