@@ -12,6 +12,11 @@ body {
     font-family: sans-serif;
     }
 
+    .clearfix::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
 
     /* HEADER */
 
@@ -49,13 +54,22 @@ body {
         text-decoration: none;
     }
 
+    img {
+        border-radius: 10px;
+    }
+
+    /* MAIN */
+
+    .float {
+        float:left;
+    }
+
     #spotlight_text {
         max-width: 50%;
     }
     #spotlight {
         height: 400px; 
         margin: 30px 0;
-        border-radius: 10px;
         color: white;
         padding-left: 30px;
         padding-top: 200px;
@@ -63,8 +77,47 @@ body {
         background-size: cover;
         background-position-y: center;
         background-position-x:center;
+        border-radius: 10px;
+    }
+
+    #leadership {
+        margin: 30px 0;
     }
 
     h1 {
         font-weight: 300;
+    }
+
+    #blackbold_title {
+        font-weight: 800;
+        color: black;
+    }
+
+    .gray_text {
+        font-size: 14px;
+        color: darkgray;
+    }
+
+    #main_header {
+        margin: 30px 0;
+    }
+
+    .main_sidebar {
+        width: 20%;
+        background-color: goldenrod;
+        height: 300px;
+    }
+
+    #main_content {
+        width: calc(60% - 30px);
+        background-color: dodgerblue;
+        height: 300px;
+        margin: 0 15px;
+    }
+
+    h3 {
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 10px 0;
     }
