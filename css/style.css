@@ -69,7 +69,7 @@ body {
         color: white;
         padding-left: 30px;
         padding-top: 200px;
-        background-image: url('../img/banner.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0 ,0 ,0 , 0.3)), url('../img/banner.jpg');
         background-size: cover;
         background-position-y: center;
         background-position-x:center;
@@ -122,18 +122,20 @@ body {
     }
 
     #img_1 {
-        background-image: url('../img/img-1.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0 ,0 ,0 , 0.2)),
+        url('../img/img-1.jpg');
 
     }
 
     #img_2 {
-        background-image: url('../img/banner-2.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0 ,0 ,0 , 0.2)),
+        url('../img/banner-2.jpg');
         background-position-y: center;
         
     }
 
     #img_3 {
-        background-image: url('../img/img-3.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0 ,0 ,0 , 0.2)), url('../img/img-3.jpg');
             
     }
 
